@@ -29,8 +29,8 @@ This project simulates an autonomous mobile robot that delivers medicines and su
 
 ### Installation
 ```bash
-# Clone repository
-git clone https://github.com/YOUR_USERNAME/hospital-delivery-robot.git
+# if Clone my repository
+git clone https://github.com/shiavm17/hospital-delivery-robot.git
 cd hospital-delivery-robot
 
 # Install dependencies
