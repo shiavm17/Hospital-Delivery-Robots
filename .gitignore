@@ -1,0 +1,92 @@
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Map files (if you want to exclude large map images)
+# Uncomment the line below if your maps are very large
+# *.pgm
+
+# Gazebo and RViz temp files
+*.log
+*.pid
+```
+
+**Save and exit:** `Ctrl+X`, then `Y`, then `Enter`
+
+---
+
+## **PHASE 2: CREATE GITHUB REPOSITORY**
+
+### **Step 2.1: Go to GitHub Website**
+
+1. Open browser and go to: **https://github.com**
+2. **Log in** to your GitHub account
+3. If you don't have an account, click **"Sign up"** and create one
+
+---
+
+### **Step 2.2: Create New Repository**
+
+1. Click the **"+"** icon (top right corner)
+2. Select **"New repository"**
+
+3. Fill in the details:
+   - **Repository name:** `hospital-delivery-robot`
+   - **Description:** `Autonomous hospital delivery robot using ROS2, Nav2, and Gazebo`
+   - **Public** or **Private:** Choose based on your preference
+   - **DO NOT** check "Add a README file"
+   - **DO NOT** add .gitignore
+   - **DO NOT** choose a license yet
+
+4. Click **"Create repository"**
+
+---
+
+### **Step 2.3: Copy Repository URL**
+
+After creating, you'll see a page with commands. **Copy the URL** that looks like:
+```
+https://github.com/shiavm17/hospital-delivery-robot.git
+
+
+
+
+```
+hospital-delivery-robot/
+├── src/
+│   ├── hospital_delivery_robot/
+│   │   ├── launch/          # Launch files
+│   │   ├── worlds/          # Gazebo world files
+│   │   ├── maps/            # Pre-generated maps
+│   │   ├── config/          # Nav2 configuration
+│   │   ├── models/          # Gazebo models
+│   │   └── rviz/            # RViz configurations
+│   └── hospital_control/
+│       └── hospital_control/
+│           ├── delivery_manager.py      # Automated delivery system
+│           └── interactive_delivery.py  # Manual control interface
+└── README.md
+```
