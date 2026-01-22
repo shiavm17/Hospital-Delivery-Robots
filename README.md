@@ -129,7 +129,7 @@ MIT License - see LICENSE file for details
 
 **Your Name**
 - GitHub: [@shiavm17](https://github.com/shiavm17)
-- Email: shivamchaturvedi.in@gmail.com
+- Email: shivamchaturvedi.in@gmail.com . 23ev3025@rgipt.ac.in
 
 ## 🙏 Acknowledgments
 
